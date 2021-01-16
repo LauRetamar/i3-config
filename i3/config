@@ -23,11 +23,8 @@ bindsym $mod+q kill
 # dmenu
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
-# change focus
-bindsym $mod+h focus left 
-bindsym $mod+j focus down 
-bindsym $mod+k focus up
-bindsym $mod+l focus right
+#i3lock
+bindsym $mod+l exec i3lock -c 1e1f54
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left 
@@ -48,6 +45,7 @@ bindsym $mod+f fullscreen toggle
 # split)
 bindsym $mod+s layout stacking 
 bindsym $mod+w layout 
+bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -160,3 +158,5 @@ exec compton
 #Wallpaper
 #exec --no-startup-id nitrogen
 exec nitrogen --restore &
+
+#fin

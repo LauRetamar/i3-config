@@ -8,6 +8,8 @@ Dependencias:
 *i3-gaps
 *nitrogen
 *compton
+*i3lock
+
 
 
 
