@@ -1,14 +1,14 @@
 Instalación y configuración de i3-gaps para manjaro
 
-Sirve para darle una configuración rápida a i3, como la estoy usando en este momento.
-Tiene algunas simplificaciones de atajos y limpieza de algunos comandos que no utilizaba. 
+Sirve para darle una configuración rápida al gestor de ventanas i3.
+Tiene algunas simplificaciones de atajos y limpieza de algunos comandos que no utilizo. 
 
 
 Dependencias:
-*i3-gaps
-*nitrogen
-*compton
-*i3lock
+i3-gaps
+nitrogen
+compton
+i3lock
 
 
 
