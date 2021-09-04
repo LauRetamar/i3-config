@@ -1,4 +1,5 @@
-sudo pacman -S i3-gaps compton nitrogen i3lock 
+sudo pacman -S i3-gaps picom nitrogen i3lock 
 
 user=$(whoami)
-cp ./i3/config /home/$user/.config/i3/
+cp -r ./i3 /home/$user/.config/
+sudo cp -i ./enviroment /etc/

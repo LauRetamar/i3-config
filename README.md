@@ -7,7 +7,7 @@ Tiene algunas simplificaciones de atajos y limpieza de algunos comandos que no u
 Dependencias:
 i3-gaps
 nitrogen
-compton
+picom
 i3lock
 
 
@@ -17,7 +17,7 @@ i3lock
 
 clonar el proyecto: git clone https://github.com/LauRetamar/Manjaro-config.git
 
-ejecutar el script "run.sh": sudo ./run.sh
+ejecutar el script "run.sh": ./run.sh
 
 --------------------
 
