@@ -15,7 +15,7 @@ exec --no-startup-id nm-applet
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+q kill
@@ -116,7 +116,7 @@ bindsym $mod+r mode "resize"
 
 #set $bg-color 			#000000
 #set $inactive-bg-color	        #484848
-#set $text-color			#F3F4F5
+#set $text-color		#F3F4F5
 #set  $inactive-text-color 	#A2A2A2
 
 
@@ -128,11 +128,8 @@ bindsym $mod+r mode "resize"
 
 bar { 
 	#status_command i3status
-	
 	position bottom
 	#workspace_buttons yes
-	
-	 
 }
 
 
@@ -156,7 +153,6 @@ gaps outer 1
 exec picom
 
 #Wallpaper
-#exec --no-startup-id nitrogen
 exec nitrogen --restore &
 
 #fin
